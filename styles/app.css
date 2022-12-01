@@ -66,6 +66,24 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+.about-section {
+  padding: 160px 20px;
+  text-align: center;
+}
+.about-section {
+  padding: 0;
+}
+.about-section-content {
+  margin: 30px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
