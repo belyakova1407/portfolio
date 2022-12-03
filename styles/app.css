@@ -174,3 +174,7 @@ footer .contact-box p {
     padding: 80px 20px;
   }
 }
+
+.link-git {
+  text-decoration: none;
+}
