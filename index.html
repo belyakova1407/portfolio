@@ -22,37 +22,44 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles/app.css" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Anna is a Front-end developer based in Ukraine."
+    />
+    <title>Front-end Developer - Anna Beliakova</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
         <a href="/index.html"
-          ><img src="images/logo.png" class="logo d-none d-md-block" alt=""
+          ><img src="images/logo.png" class="logo d-none d-md-block" alt="logo"
         /></a>
         <a href="/index.html">
           <img
             src="images/small-logo.jpeg"
             class="logo d-block d-md-none"
-            alt=""
+            alt="small logo"
           />
         </a>
         <ul>
           <li class="active">
-            <a href="/index.html">Home</a>
+            <a href="/index.html" title="Homepage">Home</a>
           </li>
-          <li><a href="/work.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contaxt.html">Contact</a></li>
+          <li><a href="/about.html" title="About page">About</a></li>
+          <li><a href="/work.html" title="Anna's work">Work</a></li>
+          <li><a href="/contaxt.html" title="Contact Anna">Contact</a></li>
         </ul>
       </nav>
     </div>
     <div class="hero">
       <p>👋🏻 Hello, I am</p>
+
       <h1>Anna Beliakova</h1>
       <h2 class="mb-5">Front-end developer based in Ukraine</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" title="Contact Anna" class="btn btn-branding"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="text center m-5">
@@ -61,7 +68,7 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-lg-block d-none">
-          <img src="images/yogurt.png" alt="" class="img-fluid" />
+          <img src="images/yogurt.png" alt="yogurt" class="img-fluid" />
         </div>
         <div class="col">
           <div class="project-description">
@@ -73,7 +80,7 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -88,17 +95,21 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
 
         <div class="col d-lg-block d-none">
-          <img src="images/weather.png" alt="" class="img-fluid" />
+          <img src="images/weather.png" alt="weather app" class="img-fluid" />
         </div>
       </div>
       <div class="row">
         <div class="col d-lg-block d-none">
-          <img src="images/dictionary.png" alt="" class="img-fluid" />
+          <img
+            src="images/dictionary.png"
+            alt="dictionary app"
+            class="img-fluid"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -110,14 +121,14 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
-      <footer>
+      <footer class="container">
         <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together!</p>
           </div>
           <div>
@@ -130,16 +141,33 @@
           >
         </div>
         <div class="social-links d-flex justify-content-center mb-5">
-          <a href="https://www.instagram.com/ann_1407_/" target="_blank">
+          <a
+            href="https://www.instagram.com/ann_1407_/"
+            target="_blank"
+            title="Instagram"
+          >
             <i class="fa-brands fa-instagram"></i
           ></a>
-          <a href="https://github.com/belyakova1407" target="_blank"
+          <a
+            href="https://github.com/belyakova1407"
+            title="GitHub"
+            target="_blank"
             ><i class="fa-brands fa-github"></i
           ></a>
-          <a href="https://www.facebook.com/anja.belyakova/" target="_blank">
+          <a
+            href="https://www.facebook.com/anja.belyakova/"
+            title="Facebook"
+            target="_blank"
+          >
             <i class="fa-brands fa-facebook"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded by Anna Beliakova, and it is
+          <a href="https://github.com/belyakova1407/portfolio" target="_blank"
+            >open-sourced ✋🏻</a
+          >
+        </p>
       </footer>
     </div>
   </body>
