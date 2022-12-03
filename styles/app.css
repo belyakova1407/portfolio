@@ -121,9 +121,10 @@ nav li {
   margin-left: 15px;
 }
 nav a:hover,
-nav li .active a {
+.active a {
   color: var(--branding-color);
 }
+
 footer .email-link {
   text-decoration: none;
   color: black;
